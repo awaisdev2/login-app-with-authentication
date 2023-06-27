@@ -69,7 +69,7 @@ export default function Login() {
                                         <label htmlFor="password" className="block mb-2 text-sm font-bold  font-bold">Password</label>
                                         <div className="relative">
                                             <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                                            <i class="fa-solid  fa-filter"></i>
+                                            <i className="fa-solid  fa-filter"></i>
                                             </div>
                                             <input type="password" name="password" id="password" placeholder="••••••••" className="text-sm block w-full pl-10 p-2.5 bg-transparent border border-gray-300  font-bold rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full" required="is required" value={password} onChange={(event) => setPassword(event.target.value)} />
                                         </div>
